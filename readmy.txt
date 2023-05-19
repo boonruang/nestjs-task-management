@@ -16,6 +16,9 @@ yarn add class-validator class-transformer
 docker run --name postgres-nest -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres
 # container stop
 docker container stop postgres-nest
-https://github.com/boonruang
+
+https://github.com/boonruang/nestjs-task-management
 
 yarn add typeorm @nestjs/typeorm pg
+
+"typeorm": "^0.2.32" to workaround @EntityRepository deprecated
