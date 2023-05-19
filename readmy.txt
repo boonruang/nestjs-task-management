@@ -1,0 +1,21 @@
+## start project
+
+npm new nestjs-task-mananagement
+yarn start:dev
+
+nest g --help
+nest g module tasks
+nest g controller tasks --no-spec
+nest g service tasks --no-spec
+
+yarn add uuid
+
+yarn add class-validator class-transformer
+## Docker
+# container start
+docker run --name postgres-nest -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres
+# container stop
+docker container stop postgres-nest
+https://github.com/boonruang
+
+yarn add typeorm @nestjs/typeorm pg
