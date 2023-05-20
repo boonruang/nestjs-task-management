@@ -22,3 +22,7 @@ https://github.com/boonruang/nestjs-task-management
 yarn add typeorm @nestjs/typeorm pg
 
 "typeorm": "^0.2.32" to workaround @EntityRepository deprecated
+
+nest g module auth
+nest g service auth --no-spec
+nest g controller auth --no-spec
