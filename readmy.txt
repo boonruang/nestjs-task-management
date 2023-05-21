@@ -29,3 +29,6 @@ nest g controller auth --no-spec
 
 yarn add bcrypt
 yarn add @nestjs/jwt @nestjs/passport passport passport-jwt
+jwt-payload.interface.ts
+yarn add @types/passport-jwt
+jwt.strategy.ts
